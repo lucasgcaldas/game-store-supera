@@ -1,9 +1,9 @@
 package br.com.supera.gamestore.repositories;
 
-import br.com.supera.gamestore.entities.Product;
+import br.com.supera.gamestore.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ProductRepository extends JpaRepository<Product, Long> {
+public interface UserRepository extends JpaRepository<User, Long> {
 }

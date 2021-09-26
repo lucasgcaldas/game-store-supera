@@ -1,4 +1,4 @@
-package br.com.supera.gamestore.entitie;
+package br.com.supera.gamestore.entities;
 
 import java.math.BigDecimal;
 import java.util.Objects;
@@ -21,7 +21,8 @@ public class Product {
    public Product(){
    }
 
-   public Product(String name, BigDecimal price, Integer score, String image) {
+   public Product(Long id,String name, BigDecimal price, Integer score, String image) {
+      this.id = id;
       this.name = name;
       this.price = price;
       this.score = score;
